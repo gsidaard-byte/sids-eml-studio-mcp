@@ -2,3 +2,13 @@ node_modules/
 dist/
 .DS_Store
 *.env
+.claude/
+
+# Original source materials (embedded in src/content/*.ts)
+AIAS/
+EML Architect/
+Interactive Builder/
+MicroInjections of Autonomy/
+MicroInjections of Engagement/
+MicroInjections of Passion/
+Optimizing Prompt/
