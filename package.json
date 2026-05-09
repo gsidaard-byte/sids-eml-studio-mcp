@@ -1,5 +1,5 @@
 {
-  "name": "teaching-prompts-mcp",
+  "name": "sids-eml-studio-mcp",
   "version": "1.0.0",
   "description": "MCP server exposing curated teaching prompts for workshops and faculty use",
   "type": "module",

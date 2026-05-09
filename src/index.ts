@@ -18,7 +18,7 @@ import { getOptimizerPrompt } from "./content/optimizer.js";
 // ─── Server setup ─────────────────────────────────────────────────────────────
 
 const server = new McpServer({
-  name: "teaching-prompts-mcp",
+  name: "sids-eml-studio-mcp",
   version: "1.0.0",
 });
 
@@ -251,7 +251,7 @@ const transports = new Map<string, StreamableHTTPServerTransport>();
 // Health check
 app.get("/", (_req: Request, res: Response) => {
   res.json({
-    name: "Teaching Prompts MCP Server",
+    name: "Sid's EML Studio MCP Server",
     version: "1.0.0",
     prompts: [
       "aias-advisor",
@@ -319,6 +319,6 @@ app.delete("/mcp", async (req: Request, res: Response) => {
 
 const PORT = parseInt(process.env.PORT ?? "3000", 10);
 app.listen(PORT, () => {
-  console.log(`Teaching Prompts MCP Server running on port ${PORT}`);
+  console.log(`Sid's EML Studio MCP Server running on port ${PORT}`);
   console.log(`MCP endpoint: http://localhost:${PORT}/mcp`);
 });
