@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+*.docx
+*.pdf
+AIAS
+EML Architect
+Interactive Builder
+MicroInjections of Autonomy
+MicroInjections of Engagement
+MicroInjections of Passion
+Optimizing Prompt
